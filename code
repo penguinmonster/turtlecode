@@ -1,0 +1,15 @@
+import turtle
+
+# Create a turtle object
+my_turtle = turtle.Turtle()
+
+# Draw a square
+for _ in range(4):
+    my_turtle.forward(100)  # Move turtle forward by 100 units
+    my_turtle.right(90)     # Turn turtle right by 90 degrees
+
+# Hide the turtle
+my_turtle.hideturtle()
+
+# Keep the window open until it's manually closed
+turtle.done()
